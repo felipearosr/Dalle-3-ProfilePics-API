@@ -17,5 +17,7 @@ def createImage():
     client = OpenAI()
 
     response = client.images.generate(
-
+      prompt=prompt, # from a yaml file
+      model=model, # always dalle-3
+      n=n, # depends on the type of user
     )
