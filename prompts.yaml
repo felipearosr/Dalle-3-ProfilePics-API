@@ -1,0 +1,7 @@
+- tool: imageGen
+  params:
+    prompt: A beautiful sunset over the ocean
+    width: 512
+    height: 512
+    backgroundColor: "#f0f0f0"
+    outputFileName: sunset.png
